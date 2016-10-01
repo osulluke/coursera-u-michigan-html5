@@ -15,3 +15,5 @@ Lesson 2:
 	02.07 - certain attributes for tags don't require any 'value' i.e., you just name them and they are applied...such as controls and loop in a video tag.
 
 	02.08 - tables have historically been used incorrectly; they should really only be used if you have actual 'data' to display. Styling 'can' be used, i.e. the border tag, but this can also be controlled via CSS, so there is at least one school of thought that says "keep your content separate from they styling."
+
+	02.09 - this lesson covered a tone of tags that are used to configure and place content within a webpage...at the moment, without a project to work on, this isn't going to be all that useful.
