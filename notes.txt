@@ -1,0 +1,15 @@
+Lesson 2:
+	- two types of data are always included in the head, a title and a charset.
+	- good idea to validate your html code: <head> should be closed before the <body> is begun.
+
+	02.02 - 
+	<img src=""/> is a 'self-closing' tag.
+	Element display: very important! "block" takes up whole line; "inline" only takes up necessary width.
+	Headings are 'block' tags, i.e. h1-h6, paragraphs i.e. <p>, and <div>...
+	div is a generic section 'larger' than a paragraph, that 'groups' related content.
+
+	02.04 - we are going to create a page with all the semantic elements, which are not empty, as well as validate that page.
+
+	Three parts to each page: doc-type, meta-data, and displayable content.
+
+	02.07 - certain attributes for tags don't require any 'value' i.e., you just name them and they are applied...such as controls and loop in a video tag.
