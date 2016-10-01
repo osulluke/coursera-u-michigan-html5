@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="UTF-8">
+	<title>My First Page</title>
+	<link rel="icon" type="image/png" href="https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/apple-touch-icon-120x120.png"/>
+</head>
+<body>
+	<h1>Hello world! h1 tags have special meaning; they're not simply convinient ways to get bigger text...</h1>
+	<p>Nice, I have a file.</p>
+	<p>This should be displayed by the browser.</p>
+	<p>Here is an example of an ordered list:</p>
+	<ol>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ol>
+	<p>Here is an example of an unordered list:</p>
+	<ul>
+		<li>One</li>
+		<li>Two</li>
+	</ul>
+	<p>Images should ALWAYS include an alt attribute (even if it's going to be null!!!) in order to ensure that someone using a screen reader will have something suitable displayed, but that's not all. They're also useful in search-engine optimization, as well as display things when you have broken links.</p>
+	<p>"alt" means 'alternative text'. Don't use "style" anymore. 'accesskey' allows a shortcut to an element. "class" applies special properties to groups of elements. "tabindex" wth is that???</p>
+	<p>There are LOTS of "special entities" that control how certain characters are displayed in a browser...this class is obviously not the place where all of them can be listed.</p>
+	<p>Here is a neat 'cheat-sheet' for html tags: <a href="img/html5-cheat-sheet.png"> cheat sheet</a></p>
+	<img src="img/samp.png" alt="Image of page source code."/>
+	<p>Here is another link to an html5 syntax cheatsheet. It is a PDF file this time vs a picture: <a href="html5-cheat-sheet.pdf">PDF cheater</a></p>
+	<h1>Let's talk about 'Semantic' tags...</h1>
+	<header>
+		<h1>This h1 tag is part of a header...</h1>
+		<h2>This h2 tag is part of a header as well...</h2>
+	</header>
+	<p>"nav" tags help link to other parts of a page...so not cnn or facebook...they are often embedded within the header tag.</p>
+	<p>footer tags are not required, but can included copyright info, links to social media, etc...</p>
+	<p>HTML5 now provides many, many, semantic tags, which, as a group, are basically rendering the "div" tag obsolete...so, find the appropriate tag, and use it instead of the old-fashioned div tags...</p>
+	<p>Every image loaded in a page requires its own html request/response cycle.</p>
+	<p>Important to keep content and style separate, but images are an exception.</p>
+	<figure>
+		<img src="img/f-16.jpg"
+		width="700px"
+		alt="F-16 picture">
+		<figcaption>
+			This is an F-16 picture I downloaded from the internet. Even though it only has the width hard-coded, the browser is smart enough to know that it needs to keep the dimensions the same.
+		</figcaption>
+	</figure>
+	<figure>
+		<img src="img/f-16.jpg"
+		width="50%"
+		alt="F-16 picture">
+		<figcaption>
+			This is an F-16 picture I downloaded from the internet. This one uses the 50% of the width dimension. It will scale based on how wide the browser window is...pretty cool!
+		</figcaption>
+	</figure>
+	<a href="links.html">Here is a page about links...</a>
+</body>
+</html>
